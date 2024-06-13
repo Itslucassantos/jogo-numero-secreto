@@ -9,7 +9,7 @@ function verificaSeOChutePossuiUmValorValido(chute) {
   }
 
   if (numeroForMaiorOuMenorQueOValorPermitido(numero)) {
-    elementoChute.innerHTML += `<div>Valor inválido: Fale número entre ${menorValor} e ${maiorValor} </div>`
+    elementoChute.innerHTML += `<div>Valor inválido: Fale um número entre ${menorValor} e ${maiorValor} </div>`
     return
   }
 
@@ -22,11 +22,11 @@ function verificaSeOChutePossuiUmValorValido(chute) {
     `
   } else if (numero > numeroSecreto) {
     elementoChute.innerHTML += `
-    <div>O numero secreto é menor <i class="fa-solid fa-arrow-down-long"></i></div>
+    <div>O número secreto é menor <i class="fa-solid fa-arrow-down-long"></i></div>
     ` 
   } else {
     elementoChute.innerHTML += `
-    <div>O numero secreto é maior <i class="fa-solid fa-arrow-up-long"></i></div>
+    <div>O número secreto é maior <i class="fa-solid fa-arrow-up-long"></i></div>
     ` 
   }
 
