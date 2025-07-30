@@ -1,4 +1,4 @@
-## Sobre: In this game you need to guess the secret number.
+## About: In this game you need to guess the secret number.
 
 Game developed with the purpose of learning Javascript.
 
